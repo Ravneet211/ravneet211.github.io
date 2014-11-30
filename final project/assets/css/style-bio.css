@@ -1,0 +1,79 @@
+.box {
+	height: 50%;
+	width:33.33%;
+	float:left;
+	margin: 0px;
+	position: relative;
+	font-family: 'Fjalla One', sans-serif;
+	
+
+}
+#box-1
+{
+	background-color: rgb(231, 164, 242);
+
+}
+#box-2
+{
+	background-color: rgb(179, 232, 101);
+
+}
+#box-3
+{
+	background-color: yellow;
+
+}
+#box-4
+{
+	background-color: rgb(229, 190, 88);
+
+}
+#box-5
+{
+	background-color: rgb(97, 205, 224);
+
+}
+#box-6
+{
+	background-color: rgb(255, 163, 163);
+
+}
+.clear
+{
+	clear:both;
+}
+#row {
+    margin: 0px;
+}
+body
+{
+	margin:0px;
+}
+#box-1 .text{
+	/* display: inline-block; */
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 75%;
+	height:50%;
+	font-size: 16px;
+}
+.#box1.text: {
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+.text {
+	display:none;
+
+	font-size: 16px;
+}
+img
+{
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0px;
+	
+}

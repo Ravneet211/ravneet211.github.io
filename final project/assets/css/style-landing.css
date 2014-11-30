@@ -1,0 +1,66 @@
+.bucket-icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left:calc(50% - 36px );
+    display: none;
+    z-index:1;
+    
+}
+.rotate-bucket
+{
+	-webkit-transition-duration:10s;
+	-webkit-transform:rotate(-25deg);
+}
+#expanding-background{
+	background-color:rgb(154, 108, 155);
+	width:0px;
+	height:0px;
+	-webkit-transition-duration:10s;
+	border-radius: 50%;
+	position: absolute;
+	top:calc(50% + 42px);
+	left:calc(50% + 19px);
+}
+#page-title
+{
+	display:none;
+	color:black;
+	font-family: 'Pinyon Script', cursive;
+	position:absolute;
+	text-align: center;
+	top: calc(50% - 29px);
+	width:100%;
+	font-weight: 900;
+	font-size: 48px;
+}
+.button{
+	text-align: center;
+position: relative;
+
+	margin-left: 227px;
+
+	width: 300px;
+
+	height: 30px;
+
+	background-color: rgb(226, 226, 110);
+	padding-bottom: 25px;
+	padding-top: 25px;
+	font-family: 'Pinyon Script', cursive;
+	font-size: 30px;
+	display:none;
+	font-weight: 600;
+	
+}
+
+#clear
+{
+	clear:both;
+}
+#button-row {
+    position: absolute;
+    top: calc(80% - 15px);
+}
